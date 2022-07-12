@@ -1,0 +1,149 @@
+.ContainerTasks {
+  display: block;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+
+  position: absolute;
+  width: 46rem;
+  /* height: 451px;
+  left: calc(50% - 736px / 2); */
+  top: 17.938rem;
+
+  /* border: 1px solid var(--purple-dark); */
+}
+
+.Info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-sizing: border-box;
+  padding: 1.5rem 0;
+
+  width: 46rem;
+  height: 1.188rem;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  top: 18.188rem;
+
+  /* border: 1px solid red; */
+}
+
+.Created {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 0.5rem;
+
+  height: 1.188rem;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.063rem;
+
+  box-sizing: border-box;
+  color: var(--blue);
+  /* border: 1px solid red; */
+}
+
+.CreateCounter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 8px;
+  gap: 10px;
+
+  height: 1.188rem;
+
+  background: var(--gray-400);
+  border-radius: 999px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 0.938rem;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.Done {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  height: 1.188rem;
+  margin-left: -100%;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.063rem;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: var(--purple);
+  /* border: 1px solid red; */
+}
+
+.DoneCounter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 8px;
+  gap: 10px;
+
+  height: 1.063rem;
+
+  background: var(--gray-400);
+  border-radius: 999px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 0.938rem;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.ListTasks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  width: 46rem;
+  height: 25.5rem;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  background-repeat: no-repeat;
+
+  /* background-image: url('src/assets/empty.svg'); */
+  /* border: 1px solid white; */
+}

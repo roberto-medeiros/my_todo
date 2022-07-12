@@ -1,0 +1,21 @@
+.AppHeader {
+  background-image: url('src/assets/hostblue.svg');
+  background-repeat: no-repeat;
+  background-color: var(--gray-700);
+  opacity: 100%;
+  display: flex;
+
+  position: absolute;
+  height: 13.1rem;
+
+  width: 100vw;
+
+  top: -9px;
+  border-radius: 5000px 1000px;
+
+  text-align: center;
+
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--purple);
+}
